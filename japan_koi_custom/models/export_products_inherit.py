@@ -93,6 +93,7 @@ class ExportProductsInherit(models.TransientModel):
             'height': str(template_record.height) or '',
             'state': '1',
             'ean13': template_record.barcode or '',
+            'position':template_record.sequence or 0,
             'reference': default_code or '',
             'out_of_stock': '2',
             'condition': 'new',
@@ -147,6 +148,7 @@ class ExportProductsInherit(models.TransientModel):
         return [True, remote_id]
 
     def prestashop_export_template(self, prestashop, channel_id, product_bs, template_record):
+        raise ValidationError(product_bs)
         cost = template_record.standard_price
         default_code = template_record.default_code or ''
         erp_category_id = template_record.categ_id
@@ -178,6 +180,7 @@ class ExportProductsInherit(models.TransientModel):
             'height': str(template_record.height) or '',
             'state': '1',
             'ean13': template_record.barcode or '',
+            'position':template_record.sequence or 0,
             'reference': default_code or '',
             'out_of_stock': '2',
             'condition': 'new',
