@@ -106,6 +106,7 @@ class ExportProductsInherit(models.TransientModel):
             'video_link': template_record.lien_video if template_record.lien_video else '',
             'id_category_default': str(presta_default_categ_id)
         })
+        #Trier la liste des produits par numéro séquence 
         if cost:
             product_bs['product']['wholesale_price'] = str(round(cost, 3))
         if type(product_bs['product']['name']['language']) == list:
