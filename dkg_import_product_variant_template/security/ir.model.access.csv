@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+acl_dkg_import_product_variant_template,dkg.import.product.variant.template default,model_dkg_import_product_variant_template,,1,1,1,1
+acl_dkg_import_product_var_wizard,dkg.import.product.var.wizard default,model_dkg_import_product_var_wizard,,1,1,1,1

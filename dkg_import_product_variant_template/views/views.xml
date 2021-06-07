@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="import_product_variant_template.list">
+      <field name="name">import_product_variant_template list</field>
+      <field name="model">import_product_variant_template.import_product_variant_template</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="import_product_variant_template.action_window">
+      <field name="name">import_product_variant_template window</field>
+      <field name="res_model">import_product_variant_template.import_product_variant_template</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="import_product_variant_template.action_server">
+      <field name="name">import_product_variant_template server</field>
+      <field name="model_id" ref="model_import_product_variant_template_import_product_variant_template"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="import_product_variant_template" id="import_product_variant_template.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="import_product_variant_template.menu_1" parent="import_product_variant_template.menu_root"/>
+    <menuitem name="Menu 2" id="import_product_variant_template.menu_2" parent="import_product_variant_template.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="import_product_variant_template.menu_1_list" parent="import_product_variant_template.menu_1"
+              action="import_product_variant_template.action_window"/>
+    <menuitem name="Server to list" id="import_product_variant_template" parent="import_product_variant_template.menu_2"
+              action="import_product_variant_template.action_server"/>
+-->
+  </data>
+</odoo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="dkg_import_product_var_wizard" model="ir.ui.view">
+            <field name="name">import.product.var.wizard</field>
+            <field name="model">import.product.var.wizard</field>
+            <field name="arch" type="xml">
+                <form string="2- Launch Import Process">
+                    <p class="oe_grey">
+                        Please import template first if not yet done, download a template
+                        from below
+                    </p>
+                    <footer>
+                        <button name="import_product_var_apply" string="Apply" type="object" class="btn-primary" />
+                        <button string="Cancel" class="btn-default" special="cancel" />
+
+                        <div style="float: right;">
+                            <strong>Download Sample : .</strong>
+                            <a
+                                role="button"
+                                href="/dkg_import_product_variant_template/static/download/dkg_import_product_variant_template.xlsx"
+                                class="btn-primary"
+                                style="font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                            >
+                                <i class="fa fa-download" /> Excel file
+                            </a>
+                        </div>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="dkg_import_product_var_action" model="ir.actions.act_window">
+            <field name="name">2- Launch Import Process</field>
+            <field name="res_model">import.product.var.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="dkg_import_product_var_wizard" />
+            <field name="target">new</field>
+        </record>
+
+        <menuitem name="2- Launch Import Process" action="dkg_import_product_var_action"
+                  id="dkg_import_product_var_menu" parent="sale.product_menu_catalog"
+                  groups="dkg_import_product_var_group" />
+    </data>
+</odoo>

@@ -1,0 +1,24 @@
+<odoo>
+  <data>
+
+      <record id="import_product_variant_template_action" model="ir.actions.act_window">
+          <field name="name">1- Import Variant File</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="res_model">dkg.import.product.variant.template</field>
+          <field name="view_mode">tree,form</field>
+          <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+              Create First One
+            </p><p>
+              More details about create new one
+            </p>
+          </field>
+      </record>
+
+      <!-- This Menu Item Must have a parent -->
+      <menuitem id="import_product_variant_template_menu" name=""
+                parent="sale.product_menu_catalog"
+                action="import_product_variant_template_action"/>
+
+  </data>
+</odoo>

@@ -1,0 +1,487 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dkg_import_product_variant_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-12 16:32+0000\n"
+"PO-Revision-Date: 2021-03-12 17:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr_BE\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.actions.act_window,name:dkg_import_product_variant_template.import_product_variant_template_action
+#: model:ir.ui.menu,name:dkg_import_product_variant_template.import_product_variant_template_menu
+msgid "1- Import Variant File"
+msgstr "1- Importer le Fichier Modèle"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.actions.act_window,name:dkg_import_product_variant_template.dkg_import_product_var_action
+#: model:ir.ui.menu,name:dkg_import_product_variant_template.dkg_import_product_var_menu
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+msgid "2- Launch Import Process"
+msgstr "2- Lancement du Processus d’Importation"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+#, fuzzy
+msgid "<i class=\"fa fa-download\"/> Excel file"
+msgstr "<i j=\"0/\"> Fichier Excel</i>"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+msgid "<strong>Download Sample : .</strong>"
+msgstr "<strong>Télécharger le Modèle : .</strong>"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+msgid "Apply"
+msgstr "Appliquer"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__barcode
+msgid "Barcode"
+msgstr "Code Barre"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__purchase_ok
+#, fuzzy
+msgid "Can be Purchased"
+msgstr "Peut être acheté"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__sale_ok
+#, fuzzy
+msgid "Can be Sold"
+msgstr "Peut être vendu"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_0
+#, fuzzy
+msgid "Category Level 0"
+msgstr "Catégorie Niveau 0"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_1
+#, fuzzy
+msgid "Category Level 1"
+msgstr "Catégorie Niveau 1"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_2
+#, fuzzy
+msgid "Category Level 2"
+msgstr "Catégorie Niveau 2"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_3
+#, fuzzy
+msgid "Category Level 3"
+msgstr "Catégorie Niveau 3"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_4
+#, fuzzy
+msgid "Category Level 4"
+msgstr "Catégorie Niveau 4"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__category_level_5
+#, fuzzy
+msgid "Category Level 5"
+msgstr "Catégorie Niveau 5"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields.selection,name:dkg_import_product_variant_template.selection__dkg_import_product_variant_template__type__consu
+#, fuzzy
+msgid "Consumable"
+msgstr "Consommables"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__standard_price
+msgid "Cost"
+msgstr "Coût"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.actions.act_window,help:dkg_import_product_variant_template.import_product_variant_template_action
+msgid "Create First One"
+msgstr "Créer Premier Enregistrement"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__is_created
+msgid "Created"
+msgstr "Créé"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__create_uid
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__create_date
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__taxes_id
+#, fuzzy
+msgid "Customer Taxes"
+msgstr "Taxes clients"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,help:dkg_import_product_variant_template.field_dkg_import_product_variant_template__supplier_taxes_id
+#, fuzzy
+msgid "Default taxes used when buying the product."
+msgstr "Taxes par défaut utilisées lors de l’achat du produit."
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,help:dkg_import_product_variant_template.field_dkg_import_product_variant_template__taxes_id
+#, fuzzy
+msgid "Default taxes used when selling the product."
+msgstr "Taxes par défaut utilisées lors de la vente du produit."
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields.selection,name:dkg_import_product_variant_template.selection__dkg_import_product_variant_template__invoice_policy__delivery
+#, fuzzy
+msgid "Delivered quantities"
+msgstr "Quantités livrées"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_1
+#, fuzzy
+msgid "Description Field 1"
+msgstr "Description Champ 1"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_10
+#, fuzzy
+msgid "Description Field 10"
+msgstr "Description Champ 10"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_2
+#, fuzzy
+msgid "Description Field 2"
+msgstr "Description Champ 2"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_3
+#, fuzzy
+msgid "Description Field 3"
+msgstr "Description Champ 3"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_4
+#, fuzzy
+msgid "Description Field 4"
+msgstr "Description Champ 4"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_5
+#, fuzzy
+msgid "Description Field 5"
+msgstr "Description Champ 5"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_6
+#, fuzzy
+msgid "Description Field 6"
+msgstr "Description Champ 6"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_7
+#, fuzzy
+msgid "Description Field 7"
+msgstr "Description Champ 7"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_8
+#, fuzzy
+msgid "Description Field 8"
+msgstr "Description Champ 8"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__desc_field_9
+#, fuzzy
+msgid "Description Field 9"
+msgstr "Description Champ 9"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__display_name
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__external_id
+#, fuzzy
+msgid "External ID"
+msgstr "ID externe"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__fix_price
+#, fuzzy
+msgid "Fix Price"
+msgstr "Fixer le prix"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__id
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: dkg_import_product_variant_template
+#: model:res.groups,name:dkg_import_product_variant_template.dkg_import_product_var_group
+#, fuzzy
+msgid "Import Product Variant Group"
+msgstr "Groupe de variantes de produits importés"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__default_code
+msgid "Internal Reference"
+msgstr "Référence interne"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__invoice_policy
+#, fuzzy
+msgid "Invoicing Policy"
+msgstr "Politique de facturation"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard____last_update
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__write_uid
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_var_wizard__write_date
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.actions.act_window,help:dkg_import_product_variant_template.import_product_variant_template_action
+#, fuzzy
+msgid "More details about create new one"
+msgstr "Plus de détails sur la création d’un nouveau"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields.selection,name:dkg_import_product_variant_template.selection__dkg_import_product_variant_template__invoice_policy__order
+#, fuzzy
+msgid "Ordered quantities"
+msgstr "Quantités commandées"
+
+#. module: dkg_import_product_variant_template
+#: model_terms:ir.ui.view,arch_db:dkg_import_product_variant_template.dkg_import_product_var_wizard
+#, fuzzy
+msgid ""
+"Please import template first if not yet done, download a template\n"
+"                        from below"
+msgstr ""
+"S’il vous plaît importer le modèle d’abord si ce n’est pas encore fait, télécharger un modèle\n"
+"                        d’en bas"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__type
+msgid "Product Type"
+msgstr "Type de produit"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__uom_po_id
+#, fuzzy
+msgid "Purchase Unit of Measure"
+msgstr "Unité de mesure d’achat"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__description_sale
+msgid "Sales Description"
+msgstr "Description"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields.selection,name:dkg_import_product_variant_template.selection__dkg_import_product_variant_template__type__service
+msgid "Service"
+msgstr "Service"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields.selection,name:dkg_import_product_variant_template.selection__dkg_import_product_variant_template__type__product
+msgid "Storable Product"
+msgstr "Produit stockable"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__uom_id
+#, fuzzy
+msgid "Unit of Measure"
+msgstr "Unité de mesure"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_1_attribute
+#, fuzzy
+msgid "Variant 1 Attribute"
+msgstr "Variante 1 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_1_attribute_value
+#, fuzzy
+msgid "Variant 1 Attribute Value"
+msgstr "Variante 1 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_10_attribute
+#, fuzzy
+msgid "Variant 10 Attribute"
+msgstr "Variante 10 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_10_attribute_value
+#, fuzzy
+msgid "Variant 10 Attribute Value"
+msgstr "Variante 10 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_2_attribute
+#, fuzzy
+msgid "Variant 2 Attribute"
+msgstr "Variante 2 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_2_attribute_value
+#, fuzzy
+msgid "Variant 2 Attribute Value"
+msgstr "Variante 2 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_3_attribute
+#, fuzzy
+msgid "Variant 3 Attribute"
+msgstr "Variante 3 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_3_attribute_value
+#, fuzzy
+msgid "Variant 3 Attribute Value"
+msgstr "Variante 3 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_4_attribute
+#, fuzzy
+msgid "Variant 4 Attribute"
+msgstr "Variante 4 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_4_attribute_value
+#, fuzzy
+msgid "Variant 4 Attribute Value"
+msgstr "Variante 4 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_5_attribute
+#, fuzzy
+msgid "Variant 5 Attribute"
+msgstr "Variante 5 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_5_attribute_value
+#, fuzzy
+msgid "Variant 5 Attribute Value"
+msgstr "Variante 5 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_6_attribute
+#, fuzzy
+msgid "Variant 6 Attribute"
+msgstr "Variante 6 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_6_attribute_value
+#, fuzzy
+msgid "Variant 6 Attribute Value"
+msgstr "Variante 6 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_7_attribute
+#, fuzzy
+msgid "Variant 7 Attribute"
+msgstr "Variante 7 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_7_attribute_value
+#, fuzzy
+msgid "Variant 7 Attribute Value"
+msgstr "Variante 7 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_8_attribute
+#, fuzzy
+msgid "Variant 8 Attribute"
+msgstr "Variante 8 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_8_attribute_value
+#, fuzzy
+msgid "Variant 8 Attribute Value"
+msgstr "Variante 8 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_9_attribute
+#, fuzzy
+msgid "Variant 9 Attribute"
+msgstr "Variante 9 Attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__variant_9_attribute_value
+#, fuzzy
+msgid "Variant 9 Attribute Value"
+msgstr "Variante 9 Valeur d’attribut"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__supplier_taxes_id
+msgid "Vendor Taxes"
+msgstr "Taxes fournisseurs"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model.fields,field_description:dkg_import_product_variant_template.field_dkg_import_product_variant_template__weight
+msgid "Weight"
+msgstr "Poids"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model,name:dkg_import_product_variant_template.model_dkg_import_product_var_wizard
+#, fuzzy
+msgid "Wizard Import Product Variant Wizard"
+msgstr "Wizard Import Product Variant Wizard"
+
+#. module: dkg_import_product_variant_template
+#: model:ir.model,name:dkg_import_product_variant_template.model_dkg_import_product_variant_template
+#, fuzzy
+msgid "import product variant template"
+msgstr "modèle de variante de produit d’importation"
