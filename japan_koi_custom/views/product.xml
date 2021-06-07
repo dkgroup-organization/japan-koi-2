@@ -1,0 +1,56 @@
+<odoo>
+  <data>
+
+    <!-- Inherit Form View to Modify it -->
+    <record id="japan_koi_inherited_product_normal_form_view" model="ir.ui.view">
+        <field name="name">product.product.form</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook[last()]" position="inside">
+                <page string="Koi" name="japan_koi" invisible="0">
+                  <group col="4" colspan="2">
+                  <field name="display_vente" widget="boolean_toggle"/>
+                  </group>
+                    <group string="Général" col="4" colspan="2">
+                        <field name="heart_icon" widget="boolean_toggle"/>
+                        <field name="special_delivery_b2c" widget="boolean_toggle"/>
+                        <field name="special_delivery_customer" widget="boolean_toggle"/>
+                    </group>
+                    <group>
+                        <group string="Nourriture" col="4" colspan="2" widget="boolean_toggle">
+                            <field name="critere_nourriture_6c_8c" widget="boolean_toggle"/>
+                            <field name="critere_nourriture_8c_15c" widget="boolean_toggle"/>
+                            <field name="critere_nourriture_moin_15c" widget="boolean_toggle"/>
+                            <field name="critere_nourriture_plus_1_an" widget="boolean_toggle"/>
+                            <field name="critere_nourriture_un_deux_ans" widget="boolean_toggle"/>
+                            <field name="critere_nourriture_plus_3_ans" widget="boolean_toggle"/>
+                        </group>
+                        <group string="Taille" col="4" colspan="2">
+                            <field name="taille_s" widget="boolean_toggle"/>
+                            <field name="taille_m" widget="boolean_toggle"/>
+                            <field name="taille_l" widget="boolean_toggle"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+        <record id="japan_koi_inherited_product_tree_view" model="ir.ui.view">
+        <field name="name">product.product.tree</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_product_tree_view"/>
+        <field name="arch" type="xml">
+          <xpath expr="//field[@name='price']" position="after">
+            
+            <field name="display_vente" optional="show"/>
+           </xpath>
+
+        </field>
+    </record>
+    	
+
+  </data>
+</odoo>

@@ -1,0 +1,54 @@
+<odoo>
+    <data>
+           <!-- Inherit Form View Product Template -->
+    <record id="japan_koi_inherited_product_template_only_form_view" model="ir.ui.view">
+        <field name="name">product.template.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook[last()]" position="inside">
+                <page string="Koi" name="japan_koi">
+                    <group>
+                    <group  col="4" colspan="2">
+                        <field name="variete"/>
+                        <field name="sexe"/>
+                        <field name="taille"/>
+                        <field name="age"/>
+                        <field name="eleveur"/>
+                        <field name="bac"/>
+                    </group>
+                    <group>
+                        <field name="lien_video" widget="url"/>
+                        </group>
+                        
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+        
+        <!--
+        <template id="listing">
+          <ul>
+            <li t-foreach="objects" t-as="object">
+              <a t-attf-href="#{ root }/objects/#{ object.id }">
+                <t t-esc="object.display_name"/>
+              </a>
+            </li>
+          </ul>
+        </template>
+        <template id="object">
+          <h1><t t-esc="object.display_name"/></h1>
+          <dl>
+            <t t-foreach="object._fields" t-as="field">
+              <dt><t t-esc="field"/></dt>
+              <dd><t t-esc="object[field]"/></dd>
+            </t>
+          </dl>
+        </template>
+-->
+                     
+    </data>
+</odoo>
