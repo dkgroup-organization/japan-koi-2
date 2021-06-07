@@ -149,7 +149,7 @@ class ExportProductsInherit(models.TransientModel):
         return [True, remote_id]
 
     def prestashop_export_template(self, prestashop, channel_id, product_bs, template_record):
-        raise ValidationError(product_bs)
+        #raise ValidationError(product_bs)
         cost = template_record.standard_price
         default_code = template_record.default_code or ''
         erp_category_id = template_record.categ_id
