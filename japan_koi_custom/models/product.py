@@ -14,7 +14,6 @@ class Producttemplate(models.Model):
     qualite = fields.Char('Qualité')
     eleveur = fields.Char('Eleveur')
     lien_video = fields.Char('Lien vidéo')
-
     
 class ProductProduct(models.Model):
     _name = "product.product"
