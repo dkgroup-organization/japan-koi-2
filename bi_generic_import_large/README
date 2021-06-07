@@ -1,0 +1,17 @@
+1) Version: 13.0.0.1 | Date : 03/12/2020
+-->  Add import invoice with payment option for import invoice .
+
+2) Version: 13.0.0.2 | Date : 07/12/2020
+-->  For sales order, Add create date, Fleet, License Plate, Analytic_Tag_ids and analytic_account_id field in the templates.
+-->  For invoice, Add invoice_origin, Fleet, License Plate, Analytic_Tag_ids and analytic_account_id field in the templates.
+--> Fixed the issue when select Confirm Quotation Automatically With Import option.
+
+3) Version: 13.0.0.3 | Date : 10/12/2020
+-->  Remove journal, amount, payment date for invoice without payment.
+-->  Fixed the issue when import invoice and vehicle is not available.
+
+4) Version: 13.0.0.4 | Date : 22/12/2020
+-->  Fixed the issue, when import sale order and discount is not given on file. 
+
+5) Version: 13.0.0.5 | Date : 28/12/2020
+-->  For Import Payment, add selection for "Payment Stage".

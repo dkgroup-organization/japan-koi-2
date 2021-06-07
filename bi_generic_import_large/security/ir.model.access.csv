@@ -1,0 +1,18 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acl_gen_inv,gen_inv default,bi_generic_import.model_gen_inv,,1,1,1,1
+acl_gen_mrp,gen_mrp default,bi_generic_import.model_gen_mrp,,1,1,1,1
+acl_gen_partner,gen_partner default,bi_generic_import.model_gen_partner,,1,1,1,1
+acl_gen_product,gen_product default,bi_generic_import.model_gen_product,,1,1,1,1
+acl_gen_product_variant,gen_product_variant default,bi_generic_import.model_gen_product_variant,,1,1,1,1
+acl_gen_purchase,gen_purchase default,bi_generic_import.model_gen_purchase,,1,1,1,1
+acl_gen_sale,gen_sale default,bi_generic_import.model_gen_sale,,1,1,1,1
+acl_gen_salepayment,gen_salepayment default,bi_generic_import.model_gen_salepayment,,1,1,1,1
+acl_gen_suppinfo,gen_suppinfo default,bi_generic_import.model_gen_suppinfo,,1,1,1,1
+acl_gen_invoice,gen_invoice default,bi_generic_import.model_gen_invoice,,1,1,1,1
+acl_gen_journal_entry,gen_journal_entry default,bi_generic_import.model_gen_journal_entry,,1,1,1,1
+
+acl_import_picking,import_picking default,model_import_picking,,1,1,1,1
+acl_import_product_pricelist,import_product_pricelist default,model_import_product_pricelist,,1,1,1,1
+
+acl_gen_multi_journal_entry,gen_multi_journal_entry default,bi_generic_import_all.model_gen_multi_journal_entry,,1,1,1,1
+acl_gen_pos_order,gen_pos_order default,bi_generic_import_all.model_gen_pos_order,,1,1,1,1

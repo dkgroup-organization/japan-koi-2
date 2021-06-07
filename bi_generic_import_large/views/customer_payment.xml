@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="gen_payment_wizard_view_form_inherit" model="ir.ui.view">
+            <field name="name">wizard for import payment </field>
+            <field name="model">gen.salepayment</field>
+            <field name="inherit_id" ref="bi_generic_import.import_customer_payment_wizard"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='payment_option']" position="after">
+                    <field name="payment_stage" widget='radio'/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
