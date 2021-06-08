@@ -20,6 +20,9 @@
                     </group>
                     <group>
                         <field name="lien_video" widget="url"/>
+                        <field name="special_delivery_customer"/>
+                         <field name="sequence" string="position"/>
+                
                         </group>
                         
                     </group>
